@@ -48,6 +48,8 @@
           <td>Natalie</td>
           <td>83</td>
         </tr>
+        <tr><td colspan="2">Average Grade</td></tr>
+
       </tbody>
 
       <tfoot>
