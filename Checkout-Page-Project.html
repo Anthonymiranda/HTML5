@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+<body>
+    <main>
+        <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <figure><img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="a rubix cube rotated to show all 3 pieces"/>
+        <figcaption>Rubix Cube</figcaption>
+        <p>$9.99</p>
+        </figure>
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+        <form action="">
+            <label for="quantity">Quantity</label>
+            <input id="quantity" type="number" min="1" max="10" placehoder="1"/><br>
+        <label for="card-name" >Card Holder Name</label>
+        <input required aria-required="true" type="text" id="card-name" name="card-name" placeholder="John Doe"/><br>
+        <label for="card-number">Card Number</label>
+        <input required aria-required="true" type="number" id="card-number" name="card-number" placeholder="xxxx-xxxx-xxxx-xxxx" size="19"/><br>
+        <label for="cvv-code" >CVV</label>
+        <input required aria-required="true" type="number" id="cvv-code" name="cvv-code" placeholder="xxx" maxlength="3" style="width: 3em"/><br>
+        <label for="expire-date">Expire Date</label>
+        <input required aria-required="true" type="number" id="expire-date" name="expire-date" placeholder="dd-mm-yyyy" style="width: 7em"/><br>
+        <label for="shipping-address">Shipping Address</label>
+        <input required aria-required="true" type="text" id="shipping-address" name="shipping-address" size="30" minlenght="12" placeholder="xxx st Happy Town, FL 12345"/><br>
+        <label for="email">Email Address</label>
+        <input aria-required="false" type="email" id="email" name="email" placeholder="johndoe@email.com"/><br>
+        <legend>Special Instructions:</legend>
+        <textarea cols="40" rows="5"></textarea>
+        <p><input type="submit"/></p>
+        </form>
+    </section>
+    </main>
+</body>
+<footer>Project by Anthony Miranda. Feedback welcomed!</footer>
+</html>
